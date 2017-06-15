@@ -1,0 +1,6 @@
+#hide all .txt files
+*.txt
+
+#hide some Macs files
+.DS_Store
+.idea
