@@ -143,55 +143,51 @@ hr {
 
 
 
-/* --------------------------------- Top Menu Tools ------------------------------------*/
+/* --------------------------------- Header Tools ( menu and search form)------------------------------------*/
 
 
 .header-tools {
     background-color: #898989;
 }
 
-.tools-menu {
+.header-tools__menu {
     margin-top: 10px;
     display: inline-block;
     padding: 0px;
 }
 
 
-.tools-menu__item {
+.header-tools__menu-item {
     display: inline-block;
     margin-right: 30px;
 
 }
 
 
-.tools-menu__link {
+.header-tools__menu-item_link {
     color: #ffffff;
     font-weight: 300;
     font-style: italic;
 }
 
-.search-form {
+.header-tools__form {
     float: right;
 }
 
 
 
-.search-form__search {
+.header-tools__form-input {
     border:1px solid #ffffff;
     background-color: #a2a2a2;
     width: 160px;
     height: 29px;
 }
 
-.search-form__button {
+.header-tools__form-btn {
     border: none;
     background-color: transparent;
     padding: 6px 0;
     color: #ffffff;
-}
-
-.search-form__button:focus {
-    border: none;
 }
 
 
