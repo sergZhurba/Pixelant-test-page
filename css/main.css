@@ -15,11 +15,11 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
+  line-height:1;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -31,6 +31,7 @@
     font-size: 8px;
     margin-left: 3px;
     color: #4ba7dd;
+
 }
 .icon-arrow-left:before {
   content: "\e901";
@@ -172,12 +173,13 @@ hr {
 
 .header-tools__form {
     float: right;
+    margin: 0 -15px;
 }
 
 
 
 .header-tools__form-input {
-    border:1px solid #ffffff;
+    border: 1px solid #ffffff;
     background-color: #a2a2a2;
     width: 160px;
     height: 29px;
@@ -186,7 +188,8 @@ hr {
 .header-tools__form-btn {
     border: none;
     background-color: transparent;
-    padding: 6px 0;
+    padding-top: 8px;
+    padding-left: 0px;
     color: #ffffff;
 }
 
@@ -210,19 +213,17 @@ hr {
 .navbar {
     background-color: transparent;
     border: none;
+    margin: 0 -15px;
 }
 
-.navbar-header {
-    margin-top: 10px;
-}
 
 .navbar-nav {
-    margin-top: 15px;
+    margin: 7px -15px;
 }
 
 .navbar-nav>li>a.main-nav__item {
     color: #000000;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 5px;
 }
 
@@ -231,22 +232,22 @@ hr {
 }
 
 
-.main-menu-button  {
-    margin-top: 20px;
+.main-nav__btn  {
+    margin: 15px;
 }
 
-.main-nav__item__inner-menu {
+.main-nav__item-inner-menu {
     background: #4ba7dd;
     left: 0px;
-    top: 70px;
+    top: 57px;
 
 }
 
-.main-nav__item__inner-menu.dropdown-menu {
+.main-nav__item-inner-menu.dropdown-menu {
     left: 5px;
 }
 
-.dropdown-menu>li>a.main-nav__item__inner-menu__item:hover {
+.dropdown-menu>li>a.main-nav__item-inner-menu_link:hover {
     background: #6fc2e9;
 }
 
