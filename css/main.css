@@ -315,7 +315,7 @@ hr {
     padding: 5px 20px;
 }
 
-/*---------------------------------------------- Top Services ------------------------------------*/
+/*---------------------------------------------- Round Img Services ------------------------------------*/
 
 .services {
     margin-top: 110px;
@@ -326,7 +326,7 @@ hr {
 }
 
 
-.top-services__img-background-1 {
+.round-img-service__img_green-background {
     background-color: #30928a;
     border-radius: 50%;
     width: 106px;
@@ -334,7 +334,7 @@ hr {
 
 }
 
-.top-services__img-background-2 {
+.round-img-service__img_yellow-background {
     background-color: #cd9840;
     border-radius: 50%;
     width: 106px;
@@ -342,7 +342,7 @@ hr {
 
 }
 
-.top-services__img-background-3 {
+.round-img-service__img_blue-background {
     background-color: #104563;
     border-radius: 50%;
     width: 106px;
@@ -385,16 +385,20 @@ hr {
 
 
 
-.inner-sevice-img {
+.round-img-service__img {
     margin: 21px;
 }
 
-.top-services__content__text {
+.round-img-service__content-heading {
+
+}
+
+.round-img-service__content-text {
     color: #a9a9a9;
 
 }
 
-.top-services__content__link {
+.round-img-service__link-btn {
     border-radius: 0px;
 }
 
