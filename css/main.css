@@ -403,27 +403,26 @@ hr {
 }
 
 
-/*---------------------------------------------- Bottom Services -------------------------------------*/
+/*---------------------------------------------- Rectangle Img Services -------------------------------------*/
 
 
-.bottom-services__content-wrapper__text-container {
-    padding: 15px 30px;
+.rectangle-img-service__content-wrapper {
     background-color: #47a5de;
     max-width: 382px;
-    margin: 0 auto;
 }
 
-.bottom-services__content-wrapper__text-container__content {
+.rectangle-img-service__text-content-wrapper {
     color: #c1ddee;
+    padding: 15px 30px;
 }
 
-.btn-text-decoration-underline {
+.rectangle-img-service__btn_text-decoration-underline {
     color: #c1ddee;
     border-bottom: 1px solid #c1ddee;
     cursor: pointer;
 }
 
-.btn-text-decoration-underline:hover {
+.rectangle-img-service__btn_text-decoration-underline:hover {
     color: #104563;
     border-bottom: 1px solid #104563;
     text-decoration: none;
