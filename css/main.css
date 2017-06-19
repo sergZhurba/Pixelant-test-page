@@ -489,22 +489,22 @@ hr {
 
 }
 
-.author-quotation-wrapper {
+.inner-quotation-wrapper__footer {
     background-color: #ededed;
     padding-left: 25px;
     margin-top: -10px;
 }
 
-.author-quotation-wrapper__content {
+.inner-quotation-wrapper__footer-content {
     display: inline-block;
     margin: 0;
 }
 
-.author-quotation-wrapper__content_link {
+.inner-quotation-wrapper__footer-content_link {
     color: #56acde;
 }
 
-.author-quotation-wrapper::before {
+.inner-quotation-wrapper__footer:before {
     content: url("../img/tab.png");
     position: relative;
     left: -5px;
