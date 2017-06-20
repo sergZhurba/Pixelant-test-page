@@ -471,13 +471,15 @@ hr {
 
 }
 
-.inner-quotation-wrapper__blockquote {
-    padding: 10px 0;
+.inner-quotation-wrapper {
+    margin: 40px 0px;
 }
 
-.inner-quotation-wrapper {
-    margin-top: 40px;
+.inner-quotation-wrapper__blockquote {
+    padding: 10px 0;
+    margin: 0;
 }
+
 
 .inner-quotation-wrapper__quotation {
 
@@ -523,7 +525,6 @@ hr {
 .pre-footer-line {
     height: 13px;
     background: #47a5de;
-    margin-top: 10px;
 }
 
 /*----------------------------------------------- Footer Content ----------------------------------------*/
@@ -558,8 +559,8 @@ hr {
     padding-bottom: 15px;
 }
 
-.call-email__item__telephone,
-.call-email__item__mailto {
+.call-email__item-telephone,
+.call-email__item-mailto {
     white-space: nowrap;
     color: #76bcdb;
 }
@@ -569,7 +570,7 @@ hr {
     border-radius: 0px;
 }
 
-.footer-content-wrapper__form__button-subscribe {
+.footer-content-wrapper__form-subscribe {
     background-color: #4ba7dd;
     margin-bottom: 15px;
     color: #ffffff;
