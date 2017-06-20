@@ -188,8 +188,8 @@ hr {
 .header-tools__form-btn {
     border: none;
     background-color: transparent;
-    padding-top: 8px;
-    padding-left: 0px;
+    padding-top: 10px;
+    padding-left: 5px;
     color: #ffffff;
 }
 
@@ -317,13 +317,6 @@ hr {
 
 /*---------------------------------------------- Round Img Services ------------------------------------*/
 
-.services {
-    margin-top: 110px;
-}
-
-.text-center {
-    text-align: center;
-}
 
 
 .round-img-service__img_green-background {
@@ -409,11 +402,18 @@ hr {
 .rectangle-img-service__content-wrapper {
     background-color: #47a5de;
     max-width: 382px;
+    margin: 0 auto;
+}
+
+.rectangle-img-service__heading {
+    color: #000;
+    font-size: 24px;
+
 }
 
 .rectangle-img-service__text-content-wrapper {
     color: #c1ddee;
-    padding: 15px 30px;
+    padding: 0px 30px 30px;
 }
 
 .rectangle-img-service__btn_text-decoration-underline {
@@ -453,6 +453,13 @@ hr {
     transform: scale(1.1);
 }
 
+.services {
+    margin-top: 110px;
+}
+
+.text-center {
+    text-align: center;
+}
 
 
 /*------------------------------------------ Horizontal line -----------------------------------------------*/
@@ -484,8 +491,8 @@ hr {
 .inner-quotation-wrapper__quotation {
 
     background-color: #ffffff;
-    padding: 0 40px 20px 70px;
-    font-size: 18px;
+    padding: 0 40px 30px 70px;
+    font-size: 16px;
     line-height: 24px;
     margin: 0;
 
