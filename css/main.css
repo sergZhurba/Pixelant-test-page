@@ -579,13 +579,13 @@ hr {
 
 }
 
-.down-footer {
+.footer-social-copyright {
     background: #47a5de;
     min-height: 73px;
 
 }
 
-.down-footer__copy-right {
+.footer__copy-right {
     font-family: 'PT Sans','Helvetica', 'Arial', sans-serif;
     font-size: 14px;
     margin: 28px 10px;
@@ -596,7 +596,7 @@ hr {
 
 
 
-.down-footer__social-links {
+.footer__social-links {
     list-style: none;
     display: inline-block;
     float: right;
@@ -605,7 +605,7 @@ hr {
 
 }
 
-.down-footer__social-links__item {
+.footer__social-links-item {
     display: inline-block;
 }
 
